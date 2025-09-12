@@ -1,6 +1,10 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <nav>
     <div>
-        <img src="/images/Logo.png" alt="">
+        <img src="{base}/images/Logo.png" alt="">
         <span>Notes - CMGT</span>
     </div>
     <ul>
