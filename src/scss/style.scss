@@ -10,7 +10,7 @@
 
 body {
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     
     display: flex;
     flex-direction: column;
@@ -18,32 +18,46 @@ body {
     justify-content: flex-start;
 
     background-color: #151515;
+    z-index: 1;
 
     & nav {
-        max-width: 1100px;
-        width: 80%;
+        width: 100%;
         height: 100px;
+        padding: 20px;
 
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        
+        border-bottom: 1px solid #D30F4C;
 
         & div {
-            display: flex;
-            align-items: center;
+            max-width: 300px;
+            width: 50%;
 
-            & img {
-                width: 70px;
-                height: auto;
-                margin-right: 10px;
-            }
-            & span {
-                font-size: 1.5em;
-                font-weight: 900;
+            & a {
+                display: flex;
+                align-items: center;
+
+                text-decoration: none;
+                
+                & img {
+                    width: 70px;
+                    height: auto;
+                    margin-right: 10px;
+                }
+                & span {
+                    font-size: 1.5em;
+                    font-weight: 900;
+                }
             }
         }
         & ul {
+            max-width: 800px;
+            width: 50%;
+
             display: flex;
+            justify-content: flex-end;
 
             list-style: none;
 
@@ -52,9 +66,34 @@ body {
                 padding-left: 20px;
             }
         }
+        & .HamburgerMenu {
+            display: none;
+
+            & img {
+                width: 45px;
+                height: auto;
+
+                position: absolute;
+                top: 25px;
+                right: 25px;
+
+                z-index: 3;
+            }
+            & div {
+                width: 100%;
+                height: 100%;
+
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                background-color: #151515;
+                z-index: 2;
+            }
+        }
     }
     & header {
-        width: 100vw;
+        width: 100%;
         height: 25vh;
         margin-bottom: 50px;
 
@@ -62,6 +101,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
 
         background-color: #D30F4C;
         z-index: 0;
@@ -89,9 +129,31 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        flex: 1 0 auto;
 
+        & section {
+            margin-bottom: 50px;
+            
+            & ul {
+                margin-left: 20px;
+            }
+            & h2 {
+                margin-top: 15px;
+            }
+        }
+        & hr {
+            margin-bottom: 25px;
+        }
         & a {
             color: #c52b78;
+        }
+        & .breadcrumbs {
+            margin: 25px 0;
+
+            & a {
+                text-decoration: underline;
+                color: #c52b78;
+            }
         }
         & .CardGrid {
             margin: 25px 0;
@@ -124,11 +186,13 @@ body {
     }
     & footer {
         width: 100%;
-        padding: 20px 0;
+        height: auto;
+        padding: 50px;
+        margin-top: 50px;
 
         display: flex;
         justify-content: center;
-        position: absolute;
+        position: static;
         bottom: 0;
 
         border-top: 1px solid #D30F4C;
@@ -139,9 +203,79 @@ body {
 
             display: flex;
             flex-direction: column;
+
+            &:first-child {
+                padding-right: 20px;
+                border-right: 1px solid #ffffff;
+            }
+            &:last-child {
+                padding-left: 20px;
+            }
+            & ul {
+                margin-left: 20px;
+            }
         }
         & a {
             color: #c52b78;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        & nav {
+            & div {
+                width: 100vw;
+                max-width: none;
+
+                & a {
+                    padding-left: 50px;
+                    width: 100vw;
+                    padding-right: 100px;
+                }
+            }
+            & ul {
+                display: none;
+            }
+            & .HamburgerMenu {
+                display: block;
+
+                & ul {
+                    width: 80%;
+
+                    display: block;
+                    position: absolute;
+                    top: 50px;
+                    left: 50px;
+
+                    & li, & a {
+                        width: inherit;
+                    }
+                    & a {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+        & footer {
+            flex-direction: column;
+            
+            & div {
+                max-width: 1100px;
+                width: 100%;
+
+                &:first-child {
+                    padding-right: 0;
+                    border-right: none;
+                }
+                &:last-child {
+                    margin-top: 25px;
+                    padding-top: 25px;
+                    padding-left: 0;
+
+                    border-top: 1px solid #ffffff50;
+                }
+            }
         }
     }
 }
