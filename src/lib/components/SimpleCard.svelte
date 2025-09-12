@@ -1,0 +1,16 @@
+<script lang="ts">
+    export let imgsrc: string;
+    export let title: string;
+    export let description: string;
+    export let reference: string;
+</script>
+
+<div class="SimpleCard">
+    <img src={imgsrc} alt={title}>
+    <h3>{title}</h3>
+    <p style="margin-bottom: 10px;">{description}</p>
+
+    {#if reference}
+        <a href={reference}>Read more...</a>
+    {/if}
+</div>
