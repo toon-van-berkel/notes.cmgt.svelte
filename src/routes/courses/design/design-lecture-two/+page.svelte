@@ -14,7 +14,7 @@
 
         <h2>Topics in this lesson</h2>
         <ul>
-            <li><a href="#robZoetewij">About the Teacher</a></li>
+            <li><a href={base + "/courses/design/design-lecture-two" + "#robZoetewij"}>About the Teacher</a></li>
             <li><a href={base + "/courses/design/design-lecture-two"}>sub2</a></li>
         </ul>
     </section>
