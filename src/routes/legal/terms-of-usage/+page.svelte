@@ -1,6 +1,10 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <main>
     <div class="breadcrumbs">
-        <a href="/">Home</a> / legal / <a href="/legal/terms-of-usage">Terms of Usage</a>
+        <a href={base + "/"}>Home</a> / legal / <a href={base + "/legal/terms-of-usage"}>Terms of Usage</a>
     </div>
 
     <section>

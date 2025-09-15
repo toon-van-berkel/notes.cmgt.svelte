@@ -8,11 +8,11 @@
 </script>
 
 <div class="SimpleCard">
-    <img src={base + imgsrc} alt={title}>
+    <img src={imgsrc} alt={title}>
     <h3>{title}</h3>
     <p style="margin-bottom: 10px;">{description}</p>
 
     {#if reference}
-        <a href={base + reference}>Read more...</a>
+        <a href={reference}>Read more...</a>
     {/if}
 </div>
