@@ -7,8 +7,8 @@
     <div>
         <span>Extra information pages</span>
         <ul>
-            <li>Terms of Usage</li>
-            <li>Security & Privacy</li>
+            <li><a href="/legal/terms-of-usage">Terms of Usage</a></li>
+            <li><a href="/legal/security-and-privacy">Security & Privacy</a></li>
         </ul>
     </div>
 </footer>
