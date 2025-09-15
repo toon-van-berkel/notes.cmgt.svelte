@@ -17,9 +17,9 @@
             <li><a href="#access">Free Access and Use</a></li>
             <li><a href="#styling">Use of Styling, Layout, and Setup</a></li>
             <li><a href="#public">Public Information</a></li>
-            <li><a href="security">Security and Privacy</a></li>
-            <li><a href="limitation">Limitation of Liability</a></li>
-            <li><a href="amendments">Amendments</a></li>
+            <li><a href="#security">Security and Privacy</a></li>
+            <li><a href="#limitation">Limitation of Liability</a></li>
+            <li><a href="#amendments">Amendments</a></li>
         </ol>
     </section>
 
