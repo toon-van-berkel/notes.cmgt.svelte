@@ -13,19 +13,17 @@
             By using the Site, you acknowledge that you have read and understood this Policy.</p>
 
         <ol>
-            <li><a href={base + "/legal/security-and-privacy" + "#acceptance"}>Acceptance of Terms</a></li>
-            <li><a href={base + "/legal/security-and-privacy" + "#access"}>Free Access and Use</a></li>
-            <li><a href={base + "/legal/security-and-privacy" + "#styling"}>Use of Styling, Layout, and Setup</a></li>
-            <li><a href={base + "/legal/security-and-privacy" + "#public"}>Public Information</a></li>
-            <li><a href={base + "/legal/security-and-privacy" + "#security"}>Security and Privacy</a></li>
-            <li><a href={base + "/legal/security-and-privacy" + "#limitation"}>Limitation of Liability</a></li>
-            <li><a href={base + "/legal/security-and-privacy" + "#amendments"}>Amendments</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#publicMedia"}>Publicly Available Media</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#collection"}>No Collection of Personal Data</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#security"}>Security of the Site</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#third"}>Third-Party Content</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#policy"}>Changes to This Policy</a></li>
         </ol>
     </section>
 
     <hr>
 
-    <section>
+    <section id="publicMedia">
         <h2>1. Publicly Available Media</h2>
         <p>All images, videos, and other media displayed on the Site are public information. <br>
             Such media is either:</p>
@@ -36,7 +34,7 @@
         <p>No confidential or private images or videos are hosted or distributed.</p>
     </section>
 
-    <section>
+    <section id="collection">
         <h2>2. No Collection of Personal Data</h2>
         <p>The Site does not collect, process, or store any personal information about its visitors.</p>
         <ul>
@@ -46,20 +44,20 @@
         </ul>
     </section>
 
-    <section>
+    <section id="security">
         <h2>3. Security of the Site</h2>
         <p>While no personal data is collected, the Site maintains standard security practices to ensure that publicly available information remains safe from unauthorized modification or tampering.
             These practices include secure hosting and regular maintenance.</p>
     </section>
 
-    <section>
+    <section id="third">
         <h2>4. Third-Party Content</h2>
         <p>Some content (such as embedded images or videos) may originate from third-party websites or services.
             Such content remains subject to the privacy and security policies of those third parties.
             This Site has no control over and assumes no responsibility for their practices.</p>
     </section>
 
-    <section>
+    <section id="policy">
         <h2>5. Changes to This Policy</h2>
         <p>This Policy may be updated or revised at any time without prior notice.
             It is the responsibility of users to review this page periodically for any changes.</p>
