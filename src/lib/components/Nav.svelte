@@ -12,8 +12,8 @@
         </a>
     </div>
     <ul>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#minigames">Mini-games</a></li>
+        <li><a href={base + "/" + "#courses"}>Courses</a></li>
+        <li><a href={base + "/" + "#minigames"}>Mini-games</a></li>
     </ul>
     <div class="HamburgerMenu">
         {#if status === false}
