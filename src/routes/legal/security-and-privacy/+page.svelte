@@ -8,7 +8,7 @@
     </div>
 
     <section>
-        <h1>Privacy & Security</h1>
+        <h1>Security & Privacy</h1>
         <p>This Privacy & Security Policy explains how this website handles information, media, and data.
             By using the Site, you acknowledge that you have read and understood this Policy.</p>
 
