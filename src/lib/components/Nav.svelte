@@ -6,8 +6,8 @@
 
 <nav>
     <div>
-        <a href="/">
-            <img src="{base}/images/Logo.png" alt="">
+        <a href={base + "/"}>
+            <img src={base + "/images/Logo.png"} alt="">
             <span>Notes - CMGT</span>
         </a>
     </div>
@@ -17,9 +17,13 @@
     </ul>
     <div class="HamburgerMenu">
         {#if status === false}
-            <img src="{base}/images/BurgerMenu.png" alt="Hamburger Menu Icon" onclick={() => { status = true}} />
+            <button onclick={() => { status = true}} aria-label="Menu open">
+                <img src={base + "/images/BurgerMenu.png"} alt="Hamburger Menu Icon"/>
+            </button>
         {:else if status}
-            <img src="{base}/images/Close.png" alt="Close Menu Icon" onclick={() => { status = false}} />
+            <button onclick={() => { status = false}} aria-label="Menu close">
+                <img src={base + "/images/Close.png"} alt="Close Menu Icon"/>
+            </button>
             <div>
                 <ul>
                     <li><a href="#courses" onclick={() => { status = false}}>Courses</a></li>

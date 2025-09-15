@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <footer>
     <div>
         <span>Our devlopers: Toon van Berkel, Vince van Apeldoorn</span>
@@ -7,8 +11,8 @@
     <div>
         <span>Extra information pages</span>
         <ul>
-            <li><a href="/legal/terms-of-usage">Terms of Usage</a></li>
-            <li><a href="/legal/security-and-privacy">Security & Privacy</a></li>
+            <li><a href={base + '/legal/terms-of-usage'}>Terms of Usage</a></li>
+            <li><a href={base + "/legal/security-and-privacy"}>Security & Privacy</a></li>
         </ul>
     </div>
 </footer>
