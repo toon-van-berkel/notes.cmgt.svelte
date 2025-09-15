@@ -1,7 +1,7 @@
 <script lang="ts">
     import { base } from '$app/paths';
 
-    let status = true;
+    let status = false;
 </script>
 
 <nav>
