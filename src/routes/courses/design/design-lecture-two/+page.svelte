@@ -1,6 +1,10 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <main>
     <div class="breadcrumbs">
-        <a href="/">Home</a> / <a href="/courses/design">Design</a> / <a href="/courses/design/design-lecture-two">Lecture Two</a>
+        <a href={base + "/"}>Home</a> / <a href={base + "/courses/design"}>Design</a> / <a href={base + "/courses/design/design-lecture-two"}>Lecture Two</a>
     </div>
     <section>
         <h1>Course design - Lecture two</h1>
@@ -11,7 +15,7 @@
         <h2>Topics in this lesson</h2>
         <ul>
             <li><a href="#robZoetewij">About the Teacher</a></li>
-            <li><a href="/courses/design/design-lecture-two">sub2</a></li>
+            <li><a href={base + "/courses/design/design-lecture-two"}>sub2</a></li>
         </ul>
     </section>
 

@@ -1,6 +1,10 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <main>
     <div class="breadcrumbs">
-        <a href="/">Home</a> / articles / <a href="/articles/what-is-frontend">What Is Frontend</a>
+        <a href={base + "/"}>Home</a> / articles / <a href={base + "/articles/what-is-frontend"}>What Is Frontend</a>
     </div>
 
     <section>
