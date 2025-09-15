@@ -52,7 +52,7 @@ body {
                 }
             }
         }
-        & ul {
+        & ul, ol {
             max-width: 800px;
             width: 50%;
 
@@ -134,11 +134,26 @@ body {
         & section {
             margin-bottom: 50px;
             
-            & ul {
-                margin-left: 20px;
+            & ul, ol {
+                margin: 10px 0 10px 20px;
             }
             & h2 {
                 margin-top: 15px;
+            }
+            & pre {
+                width: 100%;
+
+                display: block;
+
+                & code {
+                    width: 100%;
+                    margin: 10px 0;
+                    padding: 20px 10px;
+                    
+                    display: block;
+                    
+                    background-color: rgb(46, 45, 45);
+                }
             }
         }
         & hr {
@@ -156,31 +171,43 @@ body {
             }
         }
         & .CardGrid {
+            width: 100%;
+            height: auto;
             margin: 25px 0;
-            flex-wrap: wrap;
+            gap: 15px;
 
-            & .SimpleCard {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+            a {
                 min-width: 180px;
                 width: 20%;
-                padding: 10px;
-                
-                background-color: #1a1a1a;
-                border: 1px solid #ffffff25;
-                border-radius: 5px;
 
-                & img {
+                & .SimpleCard {
                     width: 100%;
-                    height: 10vh;
-                    margin-bottom: 10px;
+                    padding: 10px;
+                    
+                    background-color: #1a1a1a;
+                    border: 1px solid #ffffff25;
+                    border-radius: 5px;
+                    overflow: hidden;
 
-                    object-fit: cover;
+                    & img {
+                        width: 100%;
+                        height: 10vh;
+                        margin-bottom: 10px;
+
+                        object-fit: cover;
+                    }
+                    & h3, p {
+                        color: #ffffff;
+                    }
+                    & h3 {
+                        margin-bottom: 5px;
+                    }
                 }
-                & h3, p {
-                    color: #ffffff;
-                }
-                & h3 {
-                    margin-bottom: 5px;
-                }
+
             }
         }
     }
@@ -211,7 +238,7 @@ body {
             &:last-child {
                 padding-left: 20px;
             }
-            & ul {
+            & ul, ol {
                 margin-left: 20px;
             }
         }
