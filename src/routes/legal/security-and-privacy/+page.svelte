@@ -4,7 +4,7 @@
 
 <main>
     <div class="breadcrumbs">
-        <a href={base + "/"}>Home</a> / legal / <a href={base + "/legal/security-and-privacy"}>Security & Privacy</a>
+        <a href={base + "/"}>Home</a> / <a href={base + "/legal"}>Legal</a> / <a href={base + "/legal/security-and-privacy"}>Security & Privacy</a>
     </div>
 
     <section>
