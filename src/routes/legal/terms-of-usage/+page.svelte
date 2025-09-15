@@ -11,13 +11,13 @@
         <h1>Terms of Usage</h1>
 
         <ol>
-            <li><a href="#acceptance">Acceptance of Terms</a></li>
-            <li><a href="#access">Free Access and Use</a></li>
-            <li><a href="#styling">Use of Styling, Layout, and Setup</a></li>
-            <li><a href="#public">Public Information</a></li>
-            <li><a href="#security">Security and Privacy</a></li>
-            <li><a href="#limitation">Limitation of Liability</a></li>
-            <li><a href="#amendments">Amendments</a></li>
+            <li><a href={base + "/legal/terms-of-usage" + "#acceptance"}>Acceptance of Terms</a></li>
+            <li><a href={base + "/legal/terms-of-usage" + "#access"}>Free Access and Use</a></li>
+            <li><a href={base + "/legal/terms-of-usage" + "#styling"}>Use of Styling, Layout, and Setup</a></li>
+            <li><a href={base + "/legal/terms-of-usage" + "#public"}>Public Information</a></li>
+            <li><a href={base + "/legal/terms-of-usage" + "#security"}>Security and Privacy</a></li>
+            <li><a href={base + "/legal/terms-of-usage" + "#limitation"}>Limitation of Liability</a></li>
+            <li><a href={base + "/legal/terms-of-usage" + "#amendments"}>Amendments</a></li>
         </ol>
     </section>
 

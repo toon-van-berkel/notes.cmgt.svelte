@@ -15,13 +15,13 @@
             and why it is essential in modern web projects.</p>
 
         <ol>
-            <li><a href="#definition">Definition of Frontend</a></li>
-            <li><a href="#core-tech">Core Technologies</a></li>
-            <li><a href="#responsibilities">Responsibilities of a Frontend Developer</a></li>
-            <li><a href="#tools-frameworks">Common Tools and Frameworks</a></li>
-            <li><a href="#frontend-vs-backend">Frontend vs Backend</a></li>
-            <li><a href="#importance">Importance in Modern Web Development</a></li>
-            <li><a href="#future">Future of Frontend Development</a></li>
+            <li><a href={base + "/information/articles/about-frontend" + "#definition"}>Definition of Frontend</a></li>
+            <li><a href={base + "/information/articles/about-frontend" + "#core-tech"}>Core Technologies</a></li>
+            <li><a href={base + "/information/articles/about-frontend" + "#responsibilities"}>Responsibilities of a Frontend Developer</a></li>
+            <li><a href={base + "/information/articles/about-frontend" + "#tools-frameworks"}>Common Tools and Frameworks</a></li>
+            <li><a href={base + "/information/articles/about-frontend" + "#frontend-vs-backend"}>Frontend vs Backend</a></li>
+            <li><a href={base + "/information/articles/about-frontend" + "#importance"}>Importance in Modern Web Development</a></li>
+            <li><a href={base + "/information/articles/about-frontend" + "#future"}>Future of Frontend Development</a></li>
         </ol>
     </section>
 

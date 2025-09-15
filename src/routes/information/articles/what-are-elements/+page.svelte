@@ -14,13 +14,13 @@
             Understanding elements is essential for creating structured, semantic, and accessible websites.</p>
 
         <ol>
-            <li><a href="#definition">Definition of an Element</a></li>
-            <li><a href="#structure">Structure of an Element</a></li>
-            <li><a href="#types">Types of Elements</a></li>
-            <li><a href="#nesting">Nesting and Hierarchy</a></li>
-            <li><a href="#attributes">Attributes and Properties</a></li>
-            <li><a href="#semantic">Semantic Elements</a></li>
-            <li><a href="#best-practices">Best Practices</a></li>
+            <li><a href={base + "/information/articles/what-are-elements" + "#definition"}>Definition of an Element</a></li>
+            <li><a href={base + "/information/articles/what-are-elements" + "#structure"}>Structure of an Element</a></li>
+            <li><a href={base + "/information/articles/what-are-elements" + "#types"}>Types of Elements</a></li>
+            <li><a href={base + "/information/articles/what-are-elements" + "#nesting"}>Nesting and Hierarchy</a></li>
+            <li><a href={base + "/information/articles/what-are-elements" + "#attributes"}>Attributes and Properties</a></li>
+            <li><a href={base + "/information/articles/what-are-elements" + "#semantic"}>Semantic Elements</a></li>
+            <li><a href={base + "/information/articles/what-are-elements" + "#best-practices"}>Best Practices</a></li>
         </ol>
     </section>
 

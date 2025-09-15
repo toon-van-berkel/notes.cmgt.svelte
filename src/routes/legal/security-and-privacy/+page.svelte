@@ -13,13 +13,13 @@
             By using the Site, you acknowledge that you have read and understood this Policy.</p>
 
         <ol>
-            <li><a href="#acceptance">Acceptance of Terms</a></li>
-            <li><a href="#access">Free Access and Use</a></li>
-            <li><a href="#styling">Use of Styling, Layout, and Setup</a></li>
-            <li><a href="#public">Public Information</a></li>
-            <li><a href="#security">Security and Privacy</a></li>
-            <li><a href="#limitation">Limitation of Liability</a></li>
-            <li><a href="#amendments">Amendments</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#acceptance"}>Acceptance of Terms</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#access"}>Free Access and Use</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#styling"}>Use of Styling, Layout, and Setup</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#public"}>Public Information</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#security"}>Security and Privacy</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#limitation"}>Limitation of Liability</a></li>
+            <li><a href={base + "/legal/security-and-privacy" + "#amendments"}>Amendments</a></li>
         </ol>
     </section>
 
