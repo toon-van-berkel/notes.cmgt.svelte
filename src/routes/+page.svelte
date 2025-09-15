@@ -23,7 +23,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="minigames">
         <h2>Mini-games</h2>
         <p>Mini-games will be added in a future update. This feature will focus on helping you learn for your courses.</p>
     </section>
