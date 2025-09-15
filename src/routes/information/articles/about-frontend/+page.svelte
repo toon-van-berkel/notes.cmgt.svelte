@@ -4,7 +4,7 @@
 
 <main>
     <div class="breadcrumbs">
-        <a href={base + "/"}>Home</a> / articles / <a href={base + "/articles/what-is-frontend"}>What Is Frontend</a>
+        <a href={base + "/"}>Home</a> / articles / <a href={base + "/articles/about-frontend"}>What Is Frontend</a>
     </div>
 
     <section>
