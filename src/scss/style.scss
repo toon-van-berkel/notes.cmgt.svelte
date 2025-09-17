@@ -181,8 +181,7 @@ body {
             flex-direction: row;
 
             a {
-                min-width: 180px;
-                width: 20%;
+                flex: 1;
 
                 & .SimpleCard {
                     width: 100%;

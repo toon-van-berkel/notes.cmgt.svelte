@@ -150,8 +150,7 @@ body main .CardGrid {
   flex-direction: row;
 }
 body main .CardGrid a {
-  min-width: 180px;
-  width: 20%;
+  flex: 1;
 }
 body main .CardGrid a .SimpleCard {
   width: 100%;
